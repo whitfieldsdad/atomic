@@ -1,0 +1,9 @@
+.DS_Store
+.idea/
+.vscode/
+.coverage
+.dockerignore
+*.pyc
+*.egg-info/
+htmlcov/
+dist/
