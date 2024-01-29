@@ -1,8 +1,8 @@
 [tool.poetry]
-name = "atomic-red-team-client"
+name = "atomic-red-team"
 version = "0.1.0"
 description = "An API client for the Atomic Red Team framework"
-authors = ["Fisher, Tyler <Tyler.Fisher@canadalife.com>"]
+authors = ["Fisher, Tyler <tylerfisher@tylerfisher.ca>"]
 readme = "README.md"
 packages = [
     { include = "atomic_red_team" },

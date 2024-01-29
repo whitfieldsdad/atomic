@@ -1,16 +1,3 @@
-CONTAINER_NAME=atomic-red-team-client
-CONTAINER_REGISTRY ?= localhost:5000
-
-all: clean build
-
-clean:
-	rm -rf dist
-
-app: install
-
-build:
-	poetry build
-
 install:
 	poetry install
 
